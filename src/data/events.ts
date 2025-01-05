@@ -7,7 +7,7 @@ export const events: Web3Event[] = [
     start_date: "2025-01-07",
     end_date: "2025-01-08",
     coordinates: [25.2048, 55.2708],
-    image: "https://images.unsplash.com/photo-1542641726-0a26fbf3e024?auto=format&fit=crop&q=80&w=800",
+    image: "https://metavsummit.com/assets/images/banner/Web-Mobile-Banner.jpg",
     website: "https://metavsummit.com"
   },
   {
@@ -54,14 +54,6 @@ export const events: Web3Event[] = [
     website: "https://lu.ma/4ho88jtr"
   },
   {
-    name: "Digital Assets Forum",
-    location: "The Shard, London, United Kingdom",
-    start_date: "2025-02-03",
-    end_date: "2025-02-03",
-    coordinates: [51.5045, -0.0865],
-    image: "https://images.unsplash.com/photo-1551278465-597d3e9e18f8?auto=format&fit=crop&q=80&w=800"
-  },
-  {
     name: "DIGITAL ASSETS FORUM",
     location: "BARCELONA",
     start_date: "2025-02-03",
@@ -103,12 +95,13 @@ export const events: Web3Event[] = [
     image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800"
   },
   {
-    name: "ETHDEN2025",
+    name: "ETHDenver 2025",
     location: "Denver, USA",
     start_date: "2025-02-23",
     end_date: "2025-03-02",
     coordinates: [39.7392, -104.9903],
-    image: "https://images.unsplash.com/photo-1634141613544-001d33583fd7?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1634141613544-001d33583fd7?auto=format&fit=crop&q=80&w=800",
+    website: "https://www.ethdenver.com/"
   },
   {
     name: "Crypto Expo Europe",
@@ -116,7 +109,8 @@ export const events: Web3Event[] = [
     start_date: "2025-03-02",
     end_date: "2025-03-03",
     coordinates: [44.4275, 26.0875],
-    image: "https://images.unsplash.com/photo-1568480289350-1a0a5c1c5c48?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1568480289350-1a0a5c1c5c48?auto=format&fit=crop&q=80&w=800",
+    website: "https://cryptoexpoeurope.com/"
   },
   {
     name: "BITCOIN Alive",
@@ -124,7 +118,8 @@ export const events: Web3Event[] = [
     start_date: "2025-03-08",
     end_date: "2025-03-08",
     coordinates: [-33.8688, 151.2093],
-    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&q=80&w=800",
+    website: "https://bitcoinalive.io/"
   },
   {
     name: "Amsterdam Blockchain Week",
@@ -132,15 +127,8 @@ export const events: Web3Event[] = [
     start_date: "2025-03-13",
     end_date: "2025-03-15",
     coordinates: [52.3400, 4.8720],
-    image: "https://images.unsplash.com/photo-1584291527935-456e8e2dd734?auto=format&fit=crop&q=80&w=800"
-  },
-  {
-    name: "FOSSASIA Summit 2025",
-    location: "Bangkok International Trade & Exhibition Centre, Bangkok, Thailand",
-    start_date: "2025-03-19",
-    end_date: "2025-03-20",
-    coordinates: [13.6899991, 100.7501124],
-    image: "https://images.unsplash.com/photo-1563492065599-3520f775eeed?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1584291527935-456e8e2dd734?auto=format&fit=crop&q=80&w=800",
+    website: "https://web3amsterdam.com/"
   },
   {
     name: "Next Block Expo",
@@ -148,7 +136,8 @@ export const events: Web3Event[] = [
     start_date: "2025-04-07",
     end_date: "2025-04-08",
     coordinates: [52.2328, 20.9823],
-    image: "https://images.unsplash.com/photo-1565619188092-4b4a0a1e1b9b?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1565619188092-4b4a0a1e1b9b?auto=format&fit=crop&q=80&w=800",
+    website: "https://nextblock.pl/"
   },
   {
     name: "HolyJS 2025 Spring",
@@ -156,7 +145,8 @@ export const events: Web3Event[] = [
     start_date: "2025-04-10",
     end_date: "2025-04-11",
     coordinates: [55.751244, 37.618423],
-    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+    website: "https://holyjs.ru/"
   },
   {
     name: "Paris Blockchain Week",
@@ -164,7 +154,8 @@ export const events: Web3Event[] = [
     start_date: "2025-04-08",
     end_date: "2025-04-10",
     coordinates: [48.8566, 2.3522],
-    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&q=80&w=800",
+    website: "https://parisblockchainweek.com/"
   },
   {
     name: "Teamz Summit",
@@ -172,7 +163,17 @@ export const events: Web3Event[] = [
     start_date: "2025-04-23",
     end_date: "2025-04-24",
     coordinates: [35.6581, 139.7294],
-    image: "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?auto=format&fit=crop&q=80&w=800",
+    website: "https://teamzsummit.com/"
+  },
+  {
+    name: "Blockchain Forum 2025",
+    location: "Expocentre, Moscow, Russia",
+    start_date: "2025-04-28",
+    end_date: "2025-04-29",
+    coordinates: [55.751244, 37.618423],
+    image: "https://images.unsplash.com/photo-1579684453423-21e6bd3ab7d7?auto=format&fit=crop&q=80&w=800",
+    website: "https://blockchainforum.ru/"
   },
   {
     name: "Token2049",
@@ -180,7 +181,8 @@ export const events: Web3Event[] = [
     start_date: "2025-04-30",
     end_date: "2025-05-01",
     coordinates: [25.2048, 55.2708],
-    image: "https://images.unsplash.com/photo-1522098543979-ffc7f79b4565?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1522098543979-ffc7f79b4565?auto=format&fit=crop&q=80&w=800",
+    website: "https://token2049.com/"
   },
   {
     name: "Unchained Summit",
@@ -188,7 +190,8 @@ export const events: Web3Event[] = [
     start_date: "2025-05-07",
     end_date: "2025-05-09",
     coordinates: [25.2048493, 55.2707828],
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800",
+    website: "https://unchainedsummit.com/"
   },
   {
     name: "bitcoin++",
@@ -196,7 +199,8 @@ export const events: Web3Event[] = [
     start_date: "2025-05-13",
     end_date: "2025-05-13",
     coordinates: [30.2672, -97.7431],
-    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=800",
+    website: "https://bitcoinplusplus.com.br/"
   },
   {
     name: "Blockchain Futurist Conference Toronto",
@@ -204,7 +208,8 @@ export const events: Web3Event[] = [
     start_date: "2025-05-23",
     end_date: "2025-05-25",
     coordinates: [43.65107, -79.347015],
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=800",
+    website: "https://www.futuristconference.com/"
   },
   {
     name: "Bitcoin2025",
@@ -212,7 +217,8 @@ export const events: Web3Event[] = [
     start_date: "2025-05-27",
     end_date: "2025-05-29",
     coordinates: [36.1699, -115.1398],
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=800",
+    website: "https://b.tc/conference/2025"
   },
   {
     name: "Non Fungible Conference",
@@ -220,7 +226,8 @@ export const events: Web3Event[] = [
     start_date: "2025-06-04",
     end_date: "2025-06-06",
     coordinates: [38.7223, -9.1393],
-    image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&q=80&w=800",
+    website: "https://www.nonfungibleconference.com/"
   },
   {
     name: "BTC Prague",
@@ -228,7 +235,8 @@ export const events: Web3Event[] = [
     start_date: "2025-06-19",
     end_date: "2025-06-21",
     coordinates: [50.0755, 14.4378],
-    image: "https://images.unsplash.com/photo-1565619188092-4b4a0a1e1b9b?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1565619188092-4b4a0a1e1b9b?auto=format&fit=crop&q=80&w=800",
+    website: "https://btcprague.com/#"
   },
   {
     name: "Bitcoin FilmFest 2025",
@@ -236,7 +244,8 @@ export const events: Web3Event[] = [
     start_date: "2025-07-03",
     end_date: "2025-07-05",
     coordinates: [52.2297, 21.0122],
-    image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=800",
+    website: "https://bitcoinfilmfest.com/"
   },
   {
     name: "BLOCKCHAIN EXPO WORLD",
@@ -244,7 +253,8 @@ export const events: Web3Event[] = [
     start_date: "2025-08-21",
     end_date: "2025-08-22",
     coordinates: [41.0488, 28.9569],
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800",
+    website: "https://blockchainexpoworld.com/en/"
   },
   {
     name: "European Blockchain Convention 11",

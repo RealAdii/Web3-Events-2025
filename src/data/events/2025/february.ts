@@ -34,7 +34,8 @@ export const februaryEvents: Web3Event[] = [
     start_date: "2025-02-19",
     end_date: "2025-02-19",
     coordinates: [-27.5954, -48.5480],
-    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=800",
+    website: "https://bitcoinplusplus.com.br/"
   },
   {
     name: "Hack Seasons Hong Kong",
@@ -42,7 +43,8 @@ export const februaryEvents: Web3Event[] = [
     start_date: "2025-02-20",
     end_date: "2025-02-20",
     coordinates: [22.2616, 114.1302],
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800",
+    website: "https://hackseasons.com/"
   },
   {
     name: "ETHDEN2025",
@@ -50,6 +52,7 @@ export const februaryEvents: Web3Event[] = [
     start_date: "2025-02-23",
     end_date: "2025-03-02",
     coordinates: [39.7392, -104.9903],
-    image: "https://images.unsplash.com/photo-1634141613544-001d33583fd7?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1634141613544-001d33583fd7?auto=format&fit=crop&q=80&w=800",
+    website: "https://www.ethdenver.com/"
   }
 ];
