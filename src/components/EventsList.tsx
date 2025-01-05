@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, Filter } from 'lucide-react';
+import { Calendar, Filter, Plus } from 'lucide-react';
 import { Web3Event } from '../types/events';
 import { countries } from '../data/countries';
 import { countryLocationMap } from '../utils/locationMapping';
@@ -39,29 +39,40 @@ export const EventsList: React.FC<EventsListProps> = ({ events }) => {
           <Calendar className="mr-2" />
           <h2 className="text-xl font-bold">Upcoming Events</h2>
         </div>
-        <div className="relative">
-          <button
-            onClick={() => setIsFilterOpen(!isFilterOpen)}
+        <div className="flex items-center gap-2">
+          <a
+            href="https://gqomz5rp5f9.typeform.com/to/wUlyIC7b"
+            target="_blank"
+            rel="noopener noreferrer"
             className="p-1 hover:bg-gray-100 rounded-full transition-colors"
+            title="Submit Event"
           >
-            <Filter className="w-5 h-5" />
-          </button>
-          
-          {isFilterOpen && (
-            <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 z-10">
-              {countries.map((country) => (
-                <button
-                  key={country.code}
-                  onClick={() => handleCountrySelect(country.code)}
-                  className={`w-full px-4 py-2 text-left text-sm hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg ${
-                    selectedCountry === country.code ? 'bg-blue-50 text-blue-600' : ''
-                  }`}
-                >
-                  {country.name}
-                </button>
-              ))}
-            </div>
-          )}
+            <Plus className="w-5 h-5" />
+          </a>
+          <div className="relative">
+            <button
+              onClick={() => setIsFilterOpen(!isFilterOpen)}
+              className="p-1 hover:bg-gray-100 rounded-full transition-colors"
+            >
+              <Filter className="w-5 h-5" />
+            </button>
+            
+            {isFilterOpen && (
+              <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 z-10">
+                {countries.map((country) => (
+                  <button
+                    key={country.code}
+                    onClick={() => handleCountrySelect(country.code)}
+                    className={`w-full px-4 py-2 text-left text-sm hover:bg-gray-50 first:rounded-t-lg last:rounded-b-lg ${
+                      selectedCountry === country.code ? 'bg-blue-50 text-blue-600' : ''
+                    }`}
+                  >
+                    {country.name}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
