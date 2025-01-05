@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 import { MapView } from './components/MapView';
 import { EventsList } from './components/EventsList';
 import { events } from './data/events';

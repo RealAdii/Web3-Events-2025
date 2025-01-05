@@ -247,14 +247,6 @@ export const events: Web3Event[] = [
     image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800"
   },
   {
-    name: "Coinfest Asia",
-    location: "Canggu, Bali, Indonesia",
-    start_date: "2025-09-18",
-    end_date: "2025-09-19",
-    coordinates: [-8.6478, 115.1385],
-    image: "https://images.unsplash.com/photo-1544006659-f0b21884ce1d?auto=format&fit=crop&q=80&w=800"
-  },
-  {
     name: "European Blockchain Convention 11",
     location: "BARCELONA",
     start_date: "2025-10-15",
