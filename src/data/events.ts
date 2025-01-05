@@ -34,7 +34,8 @@ export const events: Web3Event[] = [
     start_date: "2025-01-21",
     end_date: "2025-01-24",
     coordinates: [25.7617, -80.1918],
-    image: "https://images.unsplash.com/photo-1520962917965-6a9f6d5f14af?auto=format&fit=crop&q=80&w=800"
+    image: "https://media.gncrypto.news/0Tu3TIQqgu1sxxhyFnaiotLib7Dqc06fMPPne8d5.png",
+    website: "https://wagmi.miami/"
   },
   {
     name: "DavosWeb3",
@@ -42,7 +43,8 @@ export const events: Web3Event[] = [
     start_date: "2025-01-22",
     end_date: "2025-01-22",
     coordinates: [46.802, 9.836],
-    image: "https://images.unsplash.com/photo-1601758123927-2f673dadbb3c?auto=format&fit=crop&q=80&w=800"
+    image: "https://bravenewcoin.com/wp-content/uploads/2024/07/davosweb3-roundtable.jpg",
+    website: "https://davosweb3.com/"
   },
   {
     name: "Dominion 2025",
@@ -68,7 +70,8 @@ export const events: Web3Event[] = [
     start_date: "2025-02-07",
     end_date: "2025-02-09",
     coordinates: [40.757777, -74.002590],
-    image: "https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1522083165195-3424ed129620?auto=format&fit=crop&q=80&w=800",
+    website: "https://www.omegacon.org/register/"
   },
   {
     name: "Consensus Hong Kong",
@@ -76,7 +79,8 @@ export const events: Web3Event[] = [
     start_date: "2025-02-18",
     end_date: "2025-02-20",
     coordinates: [22.2830, 114.1733],
-    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&q=80&w=800",
+    website: "https://consensus-hongkong2025.coindesk.com/"
   },
   {
     name: "bitcoin++ floripa",
@@ -84,7 +88,8 @@ export const events: Web3Event[] = [
     start_date: "2025-02-19",
     end_date: "2025-02-19",
     coordinates: [-27.5954, -48.5480],
-    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=800",
+    website: "https://bitcoinplusplus.com.br/"
   },
   {
     name: "Hack Seasons Hong Kong",
@@ -92,7 +97,8 @@ export const events: Web3Event[] = [
     start_date: "2025-02-20",
     end_date: "2025-02-20",
     coordinates: [22.2616, 114.1302],
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800"
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800",
+    website: "https://hackseasons.com/"
   },
   {
     name: "ETHDenver 2025",
@@ -100,7 +106,7 @@ export const events: Web3Event[] = [
     start_date: "2025-02-23",
     end_date: "2025-03-02",
     coordinates: [39.7392, -104.9903],
-    image: "https://images.unsplash.com/photo-1634141613544-001d33583fd7?auto=format&fit=crop&q=80&w=800",
+    image: "https://ethdenver2025.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F99451fae9ae54c3b81d3f38ec91d98b3%2Fassets%2Fcover%2F630.png&w=1440&q=100",
     website: "https://www.ethdenver.com/"
   },
   {
@@ -109,7 +115,7 @@ export const events: Web3Event[] = [
     start_date: "2025-03-02",
     end_date: "2025-03-03",
     coordinates: [44.4275, 26.0875],
-    image: "https://images.unsplash.com/photo-1568480289350-1a0a5c1c5c48?auto=format&fit=crop&q=80&w=800",
+    image: "https://cryptoexpoeurope.com/images/share_cee_2025.jpg",
     website: "https://cryptoexpoeurope.com/"
   },
   {
@@ -136,7 +142,7 @@ export const events: Web3Event[] = [
     start_date: "2025-04-07",
     end_date: "2025-04-08",
     coordinates: [52.2328, 20.9823],
-    image: "https://images.unsplash.com/photo-1565619188092-4b4a0a1e1b9b?auto=format&fit=crop&q=80&w=800",
+    image: "https://imgproxy.cryptojobslist.com/sig0x23/q:75/dpr:1.2/width:1920/rs:fill/ex:1/plain/gs:/job-listing-logos/event-next-block-expo-1725527873457.png",
     website: "https://nextblock.pl/"
   },
   {
@@ -172,7 +178,7 @@ export const events: Web3Event[] = [
     start_date: "2025-04-28",
     end_date: "2025-04-29",
     coordinates: [55.751244, 37.618423],
-    image: "https://images.unsplash.com/photo-1579684453423-21e6bd3ab7d7?auto=format&fit=crop&q=80&w=800",
+    image: "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F889548243%2F285972171974%2F1%2Foriginal.20241101-130036?w=940&auto=format%2Ccompress&q=75&sharp=10&s=7c7a8fe6355929e3fc9d32aa9659b888",
     website: "https://blockchainforum.ru/"
   },
   {
@@ -181,7 +187,7 @@ export const events: Web3Event[] = [
     start_date: "2025-04-30",
     end_date: "2025-05-01",
     coordinates: [25.2048, 55.2708],
-    image: "https://images.unsplash.com/photo-1522098543979-ffc7f79b4565?auto=format&fit=crop&q=80&w=800",
+    image: "https://static.wixstatic.com/media/e27cf5_c1d747ee55154e11a5b7bce1c14519a7~mv2.png/v1/fit/w_2500,h_1330,al_c/e27cf5_c1d747ee55154e11a5b7bce1c14519a7~mv2.png",
     website: "https://token2049.com/"
   },
   {
@@ -235,7 +241,7 @@ export const events: Web3Event[] = [
     start_date: "2025-06-19",
     end_date: "2025-06-21",
     coordinates: [50.0755, 14.4378],
-    image: "https://images.unsplash.com/photo-1565619188092-4b4a0a1e1b9b?auto=format&fit=crop&q=80&w=800",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm7UL7xB4XRYpAAYmd6kV6tb2w3SMvvEXVXg&s",
     website: "https://btcprague.com/#"
   },
   {
